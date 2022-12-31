@@ -34,7 +34,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions
     public void OnDodge(InputAction.CallbackContext context)
     {
         if(!context.performed) {return;}
-        JumpEvent?.Invoke();
+        DodgeEvent?.Invoke();
     }
 
     public void OnMove(InputAction.CallbackContext context)
