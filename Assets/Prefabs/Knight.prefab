@@ -357,6 +357,8 @@ GameObject:
   - component: {fileID: 369134987839859605}
   - component: {fileID: 3384707935715731917}
   - component: {fileID: 2618068646561588188}
+  - component: {fileID: 9009138441497540963}
+  - component: {fileID: 9009138441497540966}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -382,7 +384,7 @@ Transform:
   - {fileID: 8531453047361778043}
   - {fileID: 1729265989982791008}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3384707935715731917
 MonoBehaviour:
@@ -397,6 +399,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <InputReader>k__BackingField: {fileID: 2618068646561588188}
+  <Controller>k__BackingField: {fileID: 9009138441497540966}
+  <FreeLookMovementSpeed>k__BackingField: 6
 --- !u!114 &2618068646561588188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,6 +413,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56e1c50de7d15f8478a64d17a250db17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &9009138441497540963
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032660205372748079}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6b189dc35d752d94e89573737534aa50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!143 &9009138441497540966
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032660205372748079}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.75
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.025
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0.875, z: 0}
 --- !u!1 &1153104480193149843
 GameObject:
   m_ObjectHideFlags: 0
