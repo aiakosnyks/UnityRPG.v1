@@ -9,9 +9,11 @@ public class PlayerStateMachine : StateMachine
     [field: SerializeField] public Animator Animator {get; private set;}
 
     [field: SerializeField] public float FreeLookMovementSpeed {get; private set;}
+    public Transform MainCameraTransform {get; private set;}
 
     void Start()
     {
+        MainCameraTransform = Camera.main.transform;
         SwitchState(new PlayerTestState(this));
     }
 }
