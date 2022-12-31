@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerStateMachine : StateMachine
 {
-    // Start is called before the first frame update
+    public InputReader InputReader {get; private set;};
     void Start()
     {
         SwithState(new PlayerTestState(this));
