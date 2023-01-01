@@ -5,6 +5,7 @@ using UnityEngine;
 public class Targeter : MonoBehaviour
 {
     public List<Target> targets = new List<Target>();
+    public Target CurrentTarget {get; private set;}
     private void OnTriggerEnter(Collider other)
     {
         if(!other.TryGetComponent<Target>(out Target target)) {return;}
@@ -17,5 +18,17 @@ public class Targeter : MonoBehaviour
         targets.Remove(target);
         //Target target = other.GetComponent<Target>();
         //if(target == null) {return;}
+    }
+
+    public bool SelectTarget()
+    {
+        if(targets.Count == 0){return false;}
+
+        CurrentTarget = targets[0];
+        return true;
+    }
+    public void Cancel()
+    {
+        CurrentTarget = null;
     }
 }
