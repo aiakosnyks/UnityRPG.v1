@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 586971047}
   - component: {fileID: 586971048}
   m_Layer: 0
-  m_Name: Targeting Camera
+  m_Name: TargetingCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1578,7 +1578,7 @@ GameObject:
   - component: {fileID: 1610587536}
   - component: {fileID: 1610587537}
   m_Layer: 0
-  m_Name: Targeting Group
+  m_Name: TargetingGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1679,6 +1679,10 @@ PrefabInstance:
       propertyPath: <Targeter>k__BackingField
       value: 
       objectReference: {fileID: 362688550}
+    - target: {fileID: 4404230288683838857, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
+      propertyPath: m_ChildCameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5159492881040199525, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_ImplicitCom
       value: 0
@@ -1741,15 +1745,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8725906406208161490, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.06
+      value: 5.5615473
       objectReference: {fileID: 0}
     - target: {fileID: 8725906406208161490, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.48
+      value: -1.5593691
       objectReference: {fileID: 0}
     - target: {fileID: 8725906406208161490, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.46000004
+      value: -12.973872
       objectReference: {fileID: 0}
     - target: {fileID: 8725906406208161491, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: AutoEnableInputs
