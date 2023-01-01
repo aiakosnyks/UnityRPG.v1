@@ -642,6 +642,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &586493498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8841992708261375833, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+  m_PrefabInstance: {fileID: 1597655799}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &586493501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586493498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6450655, y: 1.8297482, z: 0.37757966}
+  m_Center: {x: -0.00000125626, y: 0.836288, z: 0.019545773}
+--- !u!114 &586493502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586493498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9262d2ab1d5fa5848829501407e12b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &586971046
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,7 +704,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586971046}
-  m_LocalRotation: {x: 0.1784248, y: 0.0000000038656816, z: -7.00982e-10, w: 0.98395354}
+  m_LocalRotation: {x: 0.1784248, y: -0.000000008465139, z: 0.0000000015350226, w: 0.98395354}
   m_LocalPosition: {x: 5.5615473, y: -0.5593691, z: -10.973872}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1567,6 +1605,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7910338781306211242, guid: d155f6ce7468dab479e9f13ed68cd679, type: 3}
   m_PrefabInstance: {fileID: 1463534769}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1597655799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.772
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      propertyPath: m_Name
+      value: Maria WProp J J Ong
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8841992708261375833, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 586493502}
+    - targetCorrespondingSourceObject: {fileID: 8841992708261375833, guid: e495ed12206b8654085644f0869e52f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 586493501}
+  m_SourcePrefab: {fileID: 100100000, guid: e495ed12206b8654085644f0869e52f8, type: 3}
 --- !u!1 &1610587535
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +1697,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610587535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.172032, y: 0.07949251, z: 2.9838824}
+  m_LocalPosition: {x: 0.000000068825514, y: -0.00000011920929, z: 4.2720017}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1616,9 +1721,6 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_Targets:
   - target: {fileID: 2145317826}
-    weight: 1
-    radius: 2
-  - target: {fileID: 80420972}
     weight: 1
     radius: 2
 --- !u!4 &1620186859 stripped
@@ -1713,7 +1815,7 @@ PrefabInstance:
       objectReference: {fileID: 1623512846}
     - target: {fileID: 4404230288683838857, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4404230288683838857, guid: 39c4d4325fd28cd408e8e9b3c2501e51, type: 3}
       propertyPath: m_ChildCameras.Array.data[1]
